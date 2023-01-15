@@ -68,7 +68,7 @@
 
 }
 
-.btn {
+.btn, .submit-btn {
    background: #FF900E;
    border-radius: 8px;
    border: 0;
@@ -301,7 +301,45 @@
    margin-bottom: 15px;
 }
 
+/* --------------------------------------------
+               contact form styles 
+----------------------------------------------*/
 
+.form-header h2{
+   
+   margin-bottom: 20px;
+   border-left: 5px solid #FF900E;
+   padding-left: 5px;
+}
+.contact-icon{
+   font-size: 220px;
+   color: #FF900E;
+   margin-top: 110px;
+}
+.contact{
+   display: grid;
+   grid-template-columns: 300px 350px;
+   margin: 20px 20px;
+   background: #ff900e1a;
+   justify-content: center;
+   padding: 5%;
+   border-radius: 20px;
+   
+}
+.form-header input{
+   padding: 8px 15px;
+   width: 400px;
+   height: 40px;
+   border-radius: 25px;
+   margin-bottom: 20px;
+   border: 0;
+}
+.form-header textarea{
+   border-radius: 25px;
+   margin-bottom: 20px;
+   border: 0;
+   padding: 10px;
+}
 
 
 
@@ -373,5 +411,24 @@
    }
    .sponspors-img{
       grid-template-columns: repeat(2, 1fr);
+   }
+   .contact{
+      grid-template-columns: 450px;
+      margin: 0px 20px;
+      
+      
+   }
+   .contact-icon{
+      font-size: 220px;
+      color: #FF900E;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      margin-left: 90px;
+   }
+   .form-header input, textarea{
+      padding: 5px 5px;
+      width: 350px;
+      margin-left: 0px;
+      
    }
 }
