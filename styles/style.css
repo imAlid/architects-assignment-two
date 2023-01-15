@@ -10,9 +10,13 @@
 /* -------------------------------
       header section styles 
 --------------------------------*/
+.header-section .header-title{
+   margin: 0 auto;
+}
 
 .header-section {
-   width: 100%px;
+   margin: 0 auto;
+   /* width: 1260px; */
    height: 990px;
    background: #ff900e1a;
 }
@@ -79,12 +83,16 @@
 }
 
 .banner-img {
-   margin-left: 200px;
-   margin-top: 50px;
+   margin-top: 50px; 
+   text-align: center;
 }
+
 
 .banner-img img {
    width: 850px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 
 /*--------------------------------------------
@@ -278,6 +286,7 @@
    display: grid;
    grid-template-columns: 550px;
    margin-left: 110px;
+   
 }
 /* --------------------------------------------
       sponspors section styles
